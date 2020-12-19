@@ -47,7 +47,7 @@ public class WebAppInterface {
                 Intent intent = new Intent(Intent.ACTION_VIEW,uri);
                 context.startActivity(intent);
             }
-        }).setActionTextColor(context.getColor(R.color.teal_200)).setBackgroundTint(context.getColor(R.color.purple_700)).show();
+        }).setActionTextColor(context.getColor(R.color.teal_200)).setBackgroundTint(context.getColor(R.color.purple_700)).setTextColor(context.getColor(R.color.white)).show();
     }
 
     @JavascriptInterface
